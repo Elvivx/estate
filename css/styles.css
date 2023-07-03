@@ -48,8 +48,10 @@ header{
 }
 .logo h3{
     letter-spacing: 2.5px;
+    line-height: .7;
     margin: 0;
     font-weight: 900 ;
+    font-size: 30px;
 }
 nav{
     margin-left: auto;
