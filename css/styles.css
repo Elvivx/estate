@@ -46,15 +46,16 @@ header{
     margin: 0 13px 0 0; 
     padding: 5px;
     font-size: 45px ;
-    font-family: 'Kablammo', cursive;
+    font-family: 'Fasthand', cursive;
     letter-spacing: 5px;
 }
 .logo h3{
-    letter-spacing: 2.5px;
+    letter-spacing: 5px;
     line-height: .7;
     margin: 0;
     font-weight: 900 ;
     font-size: 30px;
+    font-family: 'Fasthand', cursive;
 }
 nav{
     margin-left: auto;
@@ -186,7 +187,26 @@ h1 + p{
     transform: scale(1.02);
     box-shadow: 4px 4px 10px -3px yellow;
 }
-
+.btn-cnt{
+    display: flex;
+    justify-content: center;
+}
+.btn-2{
+    color: #fff;
+    background: rgb(211, 211, 35);
+    border-radius: 40px;
+    padding: 10px 17px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+    transition: color 250ms, padding 250ms, border 250ms;
+}
+.btn-2:hover,
+.btn-2:focus{
+    color: #363636;
+    padding: 11px 25px;
+    border: 2px double #fff;
+}
 
 /*contact section*/
 .contact{
